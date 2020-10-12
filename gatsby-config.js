@@ -3,13 +3,13 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     links: {
-      contact: "mailto:contact@me.com",
+      contact: "mailto:info@backroads.one",
       facebook: "https://www.facebook.com",
       linkedin: "https://www.linkedin.com",
       twitter: "https://www.twitter.com",
     },
     locale: "en",
-    title: "Travel destinations",
+    title: "Theme Travel Destinations",
   },
   plugins: [
     {
@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-modal-routing`,
       options: {
-        // See http://reactcommunity.org/react-modal/#usage
+        // See https://reactcommunity.org/react-modal/#usage
         modalProps: {
           style: {
             overlay: {
@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Travel Destinations`,
-        short_name: `Travel Destinations`,
+        name: `Reisen mit einem Thema`,
+        short_name: `Theme Travel Destinations`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#4299e1`,
