@@ -8,9 +8,10 @@ module.exports = {
     fontFamily: {
       sans: ["Roboto", "system-ui", "sans-serif"],
     },
-    extend: {future: {
-      removeDeprecatedGapUtilities: true,
-    },
+    extend: {
+      future: {
+        removeDeprecatedGapUtilities: true,
+      },
       fontSize: {
         xxs: "0.625rem",
       },
@@ -21,9 +22,6 @@ module.exports = {
         none: "none",
       },
     },
-  },
-  future: {
-    removeDeprecatedGapUtilities: true,
   },
   variants: {},
   plugins: [],

@@ -63,7 +63,7 @@ export const Footer = () => {
 const FooterIconLink = ({ href, label, icon: Icon }) => {
   const linkParams = { href }
 
-  if (href.startsWith("http")) {
+  if (href.startsWith("https")) {
     linkParams.target = "_blank"
     linkParams.rel = "noreferrer noopener"
   }
